@@ -17,16 +17,16 @@ export default function Context() {
                     <h3 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">2つの拠点、1つの海</h3>
                     <div className="space-y-6 text-gray-600 leading-relaxed text-lg">
                         <p>
-                            「原っぱ」の精神が根付く街、逗子。<br />
-                            そこから海を隔てた対岸、南房総。<br />
+                            「原っぱ」の精神が根付く街、逗子。<br className="hidden md:inline" />
+                            そこから海を隔てた対岸、南房総。<br className="hidden md:inline" />
                             物理的な距離はありますが、デジタルの海に境界線はありません。
                         </p>
                         <p>
-                            私たちはこの2つの拠点を、AIという新しい航海術で繋ぎます。<br />
+                            私たちはこの2つの拠点を、AIという新しい航海術で繋ぎます。<br className="hidden md:inline" />
                             日常（逗子・都心）で思考し、非日常（南房総）で実装する。
                         </p>
                         <p>
-                            リアルとバーチャル、都市とローカルを横断しながら、<br />
+                            リアルとバーチャル、都市とローカルを横断しながら、<br className="hidden md:inline" />
                             あなたのアイデアを「動く現実」へと変換します。
                         </p>
                     </div>

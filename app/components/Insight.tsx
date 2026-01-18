@@ -9,20 +9,20 @@ export default function Insight() {
 
                 <div className="bg-white p-8 md:p-12 rounded-3xl shadow-xl text-left md:text-center">
                     <p className="text-xl md:text-2xl text-gray-800 font-medium mb-8">
-                        あなたは既に、高い解像度で課題が見えているはずです。<br />
+                        あなたは既に、高い解像度で課題が見えているはずです。<br className="hidden md:inline" />
                         あとは「作る」だけ。
                     </p>
                     <div className="space-y-6 text-gray-600 leading-relaxed text-lg">
                         <p>
-                            これまではエンジニアに依頼するか、諦めるしかありませんでした。<br />
+                            これまではエンジニアに依頼するか、諦めるしかありませんでした。<br className="hidden md:inline" />
                             しかし、Vibe Coding（AIとの共創）の登場で、ルールは変わりました。
                         </p>
                         <p>
-                            コードが書けなくても、論理と情熱があれば、<br />
+                            コードが書けなくても、論理と情熱があれば、<br className="hidden md:inline" />
                             アプリケーションはあなたの言葉から直接生まれます。
                         </p>
                         <p>
-                            これは「プログラミング学習」ではありません。<br />
+                            これは「プログラミング学習」ではありません。<br className="hidden md:inline" />
                             あなたの<strong className="text-orange-500 text-2xl mx-1">「実行力の獲得」</strong>です。
                         </p>
                     </div>

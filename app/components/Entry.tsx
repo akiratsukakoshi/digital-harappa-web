@@ -11,15 +11,15 @@ export default function Entry() {
                         <li className="flex items-start">
                             <span className="font-bold text-orange-500 mr-3 shrink-0">日程</span>
                             <span>
-                                <strong>オープニング:</strong> 4/4（土）<br />
-                                <strong>クロージング:</strong> 5/9（土）<br />
+                                <strong>オープニング:</strong> 4/4（土）<br className="hidden md:inline" />
+                                <strong>クロージング:</strong> 5/9（土）<br className="hidden md:inline" />
                                 <span className="text-sm text-gray-500">※期間中はDiscordオンライングループで活動</span>
                             </span>
                         </li>
                         <li className="flex items-start">
                             <span className="font-bold text-orange-500 mr-3 shrink-0">場所</span>
                             <span>
-                                <strong>オープニング:</strong> 神奈川県逗子市<br />
+                                <strong>オープニング:</strong> 神奈川県逗子市<br className="hidden md:inline" />
                                 <strong>クロージング:</strong> 千葉県南房総市
                             </span>
                         </li>

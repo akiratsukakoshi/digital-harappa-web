@@ -19,11 +19,11 @@ export default function Hero() {
             {/* Content */}
             <div className="relative z-10 max-w-4xl mx-auto flex flex-col items-center animate-fade-in-up">
                 <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight tracking-tight">
-                    「思考」と「実装」の距離を、<br className="md:hidden" />ゼロにする。
+                    「思考」と「実装」の距離を、ゼロにする。
                 </h1>
                 <p className="text-lg md:text-2xl font-light mb-8 text-blue-100">
-                    描いたビジョンを、誰かに託すのはもう終わり。<br />
-                    消費者から創造者へ、評価者から実験者へ。<br />
+                    描いたビジョンを、誰かに託すのはもう終わり。<br className="hidden md:inline" />
+                    消費者から創造者へ、評価者から実験者へ。<br className="hidden md:inline" />
                     AIと共に自らの手で世界を記述する仲間よ、集まれ。
                 </p>
 
