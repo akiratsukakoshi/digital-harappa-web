@@ -9,7 +9,7 @@ export default function Curriculum() {
         {
             title: "Phase 2: Vibe Coding",
             date: "3 Weeks @ Online / Zushi-Boso",
-            desc: "日常業務の中で、AIを相棒にする習慣をインストールする。Discord上のコミュニティは、互いのコードではなく「試行錯誤のログ」を共有する実験場。逗子エリアのメンバーは、オフラインで集まるのもいいでしょう。",
+            desc: "日常業務の中で、AIを相棒にする習慣をインストールする。Discord上のコミュニティは、互いのコードではなく「試行錯誤のログ」を共有する実験場。逗子・南房総エリアのメンバーは、オフラインで集まるのもいいでしょう。",
             color: "bg-violet-50 border-violet-200 text-violet-700"
         },
         {
