@@ -66,9 +66,13 @@ export default function Guides() {
                         {/* 塚越さんからのメッセージ（記入欄） */}
                         <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
                             <h4 className="text-lg font-bold text-gray-900 mb-4">参加希望者へのメッセージ</h4>
-                            <p className="text-base font-bold text-orange-500 mb-4">「（メッセージをご記入ください）」</p>
-                            <div className="text-sm text-gray-400 leading-relaxed italic">
-                                <p>こちらに塚越さんからのメッセージが入ります。</p>
+                            <p className="text-base font-bold text-orange-500 mb-4">「とにかくやってみること。それがすべて」</p>
+                            <div className="text-sm text-gray-700 leading-relaxed space-y-3">
+                                <p>左のもっちゃんと同様、僕も非エンジニアです。<br />
+                                    でもこの1年、AIと一緒にデジタルでものづくりをしまくりました。<br />
+                                    その多くが失敗で、時間ばかり溶けて行ったのは事実だけれど。自分の欲しい何かが形になる喜びはリアルだろうとデジタルだろうと関係なく、嬉しい。この喜びこそが僕の行動の源泉。</p>
+                                <p>そして、本当にありがたいことに、AIの進化によって、僕たちはこの喜びと作りたいという欲求さえあれば本当に、本当に、自分たちの欲しいものを生み出せる。この実感に日々、興奮しています。</p>
+                                <p>もちろん、何度でも失敗するし、プロからすると「そんなことも知らないの！？」ということばかりなのだけど…。でもそれでもいいんです。今の時代、「やったもんがち」だから。手を動かすことで広がる世界が目の前に広がっているんです。そんな世界に皆さんを誘いたい、という思いでもっちゃんとこの場を始めました。一緒に、変化の時代を楽しみましょう！</p>
                             </div>
                         </div>
                     </div>

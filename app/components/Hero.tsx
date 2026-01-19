@@ -19,7 +19,7 @@ export default function Hero() {
             {/* Content */}
             <div className="relative z-10 max-w-4xl mx-auto flex flex-col items-center animate-fade-in-up">
                 <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight tracking-tight">
-                    「思考」と「実装」の距離を、ゼロにする。
+                    「思考」と「実装」の距離を、<br className="hidden lg:block" />ゼロにする。
                 </h1>
                 <p className="text-lg md:text-2xl font-light mb-8 text-blue-100">
                     描いたビジョンを、誰かに託すのはもう終わり。<br className="hidden md:inline" />
