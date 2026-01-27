@@ -43,7 +43,7 @@ export default function Hero() {
                     className="bg-orange-500 hover:bg-orange-400 text-white text-lg md:text-xl font-bold py-4 px-8 rounded-full shadow-lg hover:shadow-orange-500/50 transition-all transform hover:-translate-y-1"
                 >
                     第0期 エントリー
-                    <span className="block text-xs font-normal opacity-80 mt-1">（審査制・限定12名）</span>
+                    <span className="block text-xs font-normal opacity-80 mt-1">（審査制・限定15名）</span>
                 </Link>
             </div>
         </section>

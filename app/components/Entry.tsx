@@ -25,7 +25,10 @@ export default function Entry() {
                         </li>
                         <li className="flex items-start">
                             <span className="font-bold text-orange-500 mr-3 shrink-0">定員</span>
-                            <span>12名（最少催行人数 5名）</span>
+                            <div className="flex flex-col">
+                                <span>15名（最少催行人数5名）</span>
+                                <span className="text-sm text-orange-600 font-bold mt-1">※人気により定員数を12名から15名に拡大しました</span>
+                            </div>
                         </li>
                         <li className="flex items-start">
                             <span className="font-bold text-orange-500 mr-3 shrink-0">費用</span>
