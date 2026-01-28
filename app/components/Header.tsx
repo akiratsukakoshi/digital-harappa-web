@@ -12,7 +12,7 @@ export default function Header() {
           Bridging the Gap between Vision and Reality.
         </p>
       </div>
-      <div>
+      <div className="hidden">
         <Link
           href="https://forms.gle/X2rSVQCG8nLJ7dis7"
           target="_blank"

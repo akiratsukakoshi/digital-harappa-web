@@ -49,14 +49,14 @@ export default function Entry() {
 
                 <div className="text-center">
                     <Link
-                        href="https://forms.gle/X2rSVQCG8nLJ7dis7"
+                        href="https://forms.gle/NyhPPVYhdAuSDBEa6"
                         target="_blank"
                         className="inline-block bg-orange-500 hover:bg-orange-600 text-white text-xl font-bold py-5 px-10 rounded-full shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1"
                     >
-                        この実験に参加する（Googleフォーム）
+                        キャンセル待ち・お知らせ希望
                     </Link>
                     <p className="mt-4 text-sm text-gray-500">
-                        ※第0期のため、定員に達し次第締め切ります。
+                        ※定員に達したため、申し込みを締め切りました。キャンセル待ちおよび第1期のお知らせ希望を受付中です。
                     </p>
                 </div>
             </div>

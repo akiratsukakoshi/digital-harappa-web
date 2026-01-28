@@ -27,6 +27,16 @@ export default function Hero() {
                     AIと共に自らの手で世界を記述する仲間よ、集まれ。
                 </p>
 
+                <div className="bg-orange-900/40 border border-orange-500/50 backdrop-blur-sm p-6 rounded-xl mb-10 animate-pulse-slow">
+                    <p className="text-xl md:text-2xl font-bold text-orange-400 mb-2">
+                        第0期は定員に達しました。
+                    </p>
+                    <p className="text-base md:text-lg text-orange-100">
+                        キャンセル待ち・第1期のお知らせご希望の方は<br className="hidden md:inline" />
+                        リンク先フォームよりご登録ください。
+                    </p>
+                </div>
+
                 <div className="max-w-2xl mx-auto text-sm md:text-base leading-relaxed text-gray-200 mb-10 space-y-4 text-left md:text-center bg-black/30 p-6 rounded-xl backdrop-blur-md border border-white/10">
                     <p>
                         「バイブコーディング」では体系的にプログラミング知識を学ばずとも、「欲しい」「作りたい」をモチベーションの源泉に、実際に手を動かしていくことで経験値を上げることができます。まずは手を動かして、自分が「できる」という自信を得ること。この一歩を踏み出せるかどうかがすべて。
@@ -38,12 +48,12 @@ export default function Hero() {
                 </div>
 
                 <Link
-                    href="https://forms.gle/X2rSVQCG8nLJ7dis7"
+                    href="https://forms.gle/NyhPPVYhdAuSDBEa6"
                     target="_blank"
                     className="bg-orange-500 hover:bg-orange-400 text-white text-lg md:text-xl font-bold py-4 px-8 rounded-full shadow-lg hover:shadow-orange-500/50 transition-all transform hover:-translate-y-1"
                 >
-                    第0期 エントリー
-                    <span className="block text-xs font-normal opacity-80 mt-1">（審査制・限定15名）</span>
+                    キャンセル待ち
+                    <span className="block text-sm font-normal opacity-90 mt-1">お知らせ希望</span>
                 </Link>
             </div>
         </section>
