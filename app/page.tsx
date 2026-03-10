@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import Context from "./components/Context";
 import Insight from "./components/Insight";
 import Curriculum from "./components/Curriculum";
-import Movie from "./components/Movie";
+import Media from "./components/Media";
 import Guides from "./components/Guides";
 import Entry from "./components/Entry";
 import Footer from "./components/Footer";
@@ -16,7 +16,7 @@ export default function Home() {
       <Context />
       <Insight />
       <Curriculum />
-      <Movie />
+      <Media />
       <Guides />
       <Entry />
       <Footer />
