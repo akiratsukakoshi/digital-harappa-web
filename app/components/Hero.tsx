@@ -52,7 +52,7 @@ export default function Hero() {
                     target="_blank"
                     className="bg-orange-500 hover:bg-orange-400 text-white text-lg md:text-xl font-bold py-4 px-8 rounded-full shadow-lg hover:shadow-orange-500/50 transition-all transform hover:-translate-y-1"
                 >
-                    キャンセル待ち
+                    第1期の
                     <span className="block text-sm font-normal opacity-90 mt-1">お知らせ希望</span>
                 </Link>
             </div>

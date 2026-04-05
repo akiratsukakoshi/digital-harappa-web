@@ -6,6 +6,11 @@ export default function Entry() {
             <div className="max-w-4xl mx-auto px-6">
                 <h2 className="text-center text-3xl font-bold mb-12 text-gray-900">募集要項</h2>
 
+                <div className="text-center text-lg md:text-xl text-gray-700 py-12 mb-12 bg-gray-50 rounded-3xl">
+                    <p>第0期の募集は終了しております。<br className="md:hidden" />第1期の開催ご案内をお待ちください。</p>
+                </div>
+
+                {/* 第1期募集時に再利用するため以下の要素をコメントアウトして保持
                 <div className="bg-gray-50 rounded-3xl p-8 md:p-12 shadow-inner mb-12">
                     <ul className="space-y-4 text-gray-700">
                         <li className="flex items-start">
@@ -58,6 +63,18 @@ export default function Entry() {
                     <p className="mt-4 text-sm text-gray-500">
                         ※定員に達したため、申し込みを締め切りました。キャンセル待ちおよび第1期のお知らせ希望を受付中です。
                     </p>
+                </div>
+                */}
+
+                <div className="text-center">
+                    <Link
+                        href="https://forms.gle/NyhPPVYhdAuSDBEa6"
+                        target="_blank"
+                        className="inline-block bg-orange-500 hover:bg-orange-600 text-white text-xl font-bold py-5 px-10 rounded-full shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1"
+                    >
+                        第1期の
+                        <span className="block text-sm font-normal opacity-90 mt-1">お知らせ希望</span>
+                    </Link>
                 </div>
             </div>
         </section>
